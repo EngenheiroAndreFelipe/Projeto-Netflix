@@ -1,0 +1,115 @@
+:root{
+    --vermelho: #E50914 ;
+    --preta: #141414 ;
+
+}
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body{
+        color: white;
+        background-color: var(--preta);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    header .container{
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .logo{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        color: var(--vermelho);
+        margin: 10px;
+    }
+
+    header nav a{
+        text-decoration: none;
+        color: #aaa;
+        margin-right: 15px;
+        text-align: right;
+    }
+
+    header nav a:hover{
+        color: aqua;
+    }
+
+    .filme-principal{
+
+        font-size: 15px;
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)50%);
+        background-image: url(../lacasapapel.jpg);
+        height:400px;
+        background-size:cover;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .filme-principal .descricao{
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .filme-principal .botoes{
+        margin-bottom: 100px;
+        margin-top: 10px;
+    }
+
+    .titulo{
+        margin-top: 90px;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .botao{
+        padding: 10px 10px;
+        border: none;
+        color: black;
+        background-color: rgba(0,0,0,.20);
+        margin-right: 15px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .botao:hover{
+        background-color: black ;
+        color: white;
+    }
+
+    .botao i{
+        margin-right: 8px;
+
+    }
+
+    .container{
+        margin-left: 20px;
+    }
+
+    .filme-principal .container{
+        width: 70%;
+    }
+
+    .texto-sinopse{
+        color: #141414;
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .box-filmes{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }

@@ -1,0 +1,47 @@
+alt = shft + seta para baixo para replicar o mesmo código
+No css * (reset) para definir formatação para todo documento/site
+
+Quando denominamos uma classe, devemos colocar um . no css
+Quando usamos uma tag, precisamos apenas escrever essa tag
+
+:root{
+    --vermelho: #E50914 ;
+    --preta: #141414 ;
+
+DECLARANDO VARIÁVEL NO DOC
+
+posso encontrar diversas fontes no google fontes: https://fonts.google.com/
+
+text-decoration:none; para remover as linhas dos links
+
+  header nav a:hover{
+        color: #fff;
+    }
+deixa o elemento com cor ou formatação diferente  ao colocar o mouse em cima
+
+role comando pra definir a função 
+
+the movies database pesquisa sinopse sobre séries e demais coisas referente a filmes, séries e documentários.
+
+font awesome pra buscar icones necessário ter esse linl:
+ <script src="https://kit.fontawesome.com/ce0e95b27b.js" crossorigin="anonymous"></script>
+e depois buscar o icone correto pra inserir
+
+https://owlcarousel2.github.io/OwlCarousel2/
+
+conseguir colocar o carrosel no site
+
+entrar no endereço abaixo para pegar o jquery colocar na pasta js own
+D:\OneDrive\GitHub\Projeto Netflix\OwlCarousel2-2.3.4\docs\assets\vendors jquery.min
+
+pegar o arquivo own js e colocar na pasta js own
+D:\OneDrive\GitHub\Projeto Netflix\OwlCarousel2-2.3.4\docs\assets\owlcarousel  owl.carousel.min
+
+Endereço onde obter os arquivos do css pra ter o carrosel
+D:\OneDrive\GitHub\Projeto Netflix\OwlCarousel2-2.3.4\dist\assets
+
+Endereço para os arquivos de destino css no carrousel
+D:\OneDrive\GitHub\Projeto Netflix\Style\own
+
+ctrl + espaço para buscar pastas com os endereços no computador
+alt shift seta para baixo - copia o código imediatameente acima
